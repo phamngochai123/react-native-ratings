@@ -170,6 +170,12 @@ export interface AirbnbRatingProps {
    * Default is #004666
    */
   selectedColor?: string;
+  /**
+   * Color value for unfilled stars.
+   *
+   * Default is #ddd
+   */
+  unSelectedColor?: string;
 }
 
 export class AirbnbRating extends React.Component<AirbnbRatingProps> {}
